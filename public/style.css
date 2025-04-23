@@ -19,9 +19,7 @@ body::after {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
-    /* Slightly darker overlay */
     backdrop-filter: blur(10px) contrast(1.2);
-    /* Sharpen and blur effect */
     z-index: -1;
 }
 
@@ -43,7 +41,7 @@ body::after {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     /* Depth effect */
     text-align: center;
-    width: 450px;
+    width: 400px;
     animation: popIn 1.5s ease-in-out;
     transition: transform 0.2s ease, background-color 0.1s ease;
 }
@@ -63,15 +61,14 @@ h1 {
 
 /* Input Styles */
 .form-input {
-    width: 90%;
+    width: 80%;
     padding: 14px;
-    margin: 12px 0;
+    margin: 10px 0;
     border: 2px solid #3a3b3c;
     border-radius: 8px;
     outline: none;
     font-size: 16px;
     background: #eef3ff;
-    /* Soft blue tint */
     transition: all 0.3s ease-in-out;
 }
 
@@ -85,7 +82,6 @@ h1 {
 .form-button {
     padding: 14px 45px;
     background: linear-gradient(to right, #0062ff, #003cbf);
-    /* Gradient button */
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -105,7 +101,7 @@ h1 {
 
 .form-button:active {
     transform: scale(0.94);
-    background: #002080;
+    background: #0b2b89;
 }
 
 /* Additional Container for Visual Appeal */
@@ -125,6 +121,28 @@ h1 {
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 45px;
+}
+
+.go-back {
+    position: absolute;
+    top: 20px; 
+    left: 20px;  
+}
+
+.go-back button {
+    background-color: #dddde3; 
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.go-back button:hover {
+    background-color: #a5a5a8; 
 }
 
 /* Subtle Animations */
