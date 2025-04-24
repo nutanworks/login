@@ -41,7 +41,7 @@ body::after {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     /* Depth effect */
     text-align: center;
-    width: 400px;
+    width: 410px;
     animation: popIn 1.5s ease-in-out;
     transition: transform 0.2s ease, background-color 0.1s ease;
 }
@@ -60,7 +60,7 @@ h1 {
 }
 
 /* Input Styles */
-.form-input {
+.form-input{
     width: 85%;
     padding: 13px;
     margin: 9px 0;
@@ -142,7 +142,7 @@ h1 {
 }
 
 .go-back button:hover {
-    background-color: #a5a5a8; 
+    background-color: #bbbbc0; 
 }
 
 /* Subtle Animations */
